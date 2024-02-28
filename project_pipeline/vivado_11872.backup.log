@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue May 16 15:46:27 2023
+# Process ID: 11872
+# Current directory: C:/Users/sergi/project_pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29740 C:\Users\sergi\project_pipeline\project_pipeline.xpr
+# Log file: C:/Users/sergi/project_pipeline/vivado.log
+# Journal file: C:/Users/sergi/project_pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sergi/project_pipeline/project_pipeline.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 817.168 ; gain = 119.652
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue May 16 15:52:30 2023] Launched impl_1...
+Run output will be captured here: C:/Users/sergi/project_pipeline/project_pipeline.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/sergi/project_pipeline/.Xil/Vivado-11872-DESKTOP-5V7D9OL/dcp/test_env.xdc]
+Finished Parsing XDC File [C:/Users/sergi/project_pipeline/.Xil/Vivado-11872-DESKTOP-5V7D9OL/dcp/test_env.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 1027.945 ; gain = 2.461
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.114 . Memory (MB): peak = 1027.945 ; gain = 2.461
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 6 instances
+  RAM32X1S => RAM32X1S (RAMS32): 16 instances
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1167.938 ; gain = 316.637
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.

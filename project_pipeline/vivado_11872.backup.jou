@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue May 16 15:46:27 2023
+# Process ID: 11872
+# Current directory: C:/Users/sergi/project_pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29740 C:\Users\sergi\project_pipeline\project_pipeline.xpr
+# Log file: C:/Users/sergi/project_pipeline/vivado.log
+# Journal file: C:/Users/sergi/project_pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sergi/project_pipeline/project_pipeline.xpr
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
